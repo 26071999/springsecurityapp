@@ -12,7 +12,7 @@ public class HomeResource {
 
     @GetMapping("/user")
     public String user(){
-        System.out.println("Hi hello everyone");
+        System.out.println("HI hello everyone");
         return "<h1>Welcome User</h1>";
     }
 
